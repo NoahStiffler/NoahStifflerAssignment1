@@ -25,6 +25,9 @@
                                 <state key="normal" title="Button" image="rectangle.fill" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="100"/>
                                 </state>
+                                <connections>
+                                    <action selector="submitBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bNa-5u-tGp"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date of birth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lcm-6a-L64">
                                 <rect key="frame" x="20" y="282" width="125" height="40"/>
@@ -118,6 +121,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="dOB" destination="2am-0U-HOO" id="Ygg-U9-tcn"/>
+                        <outlet property="fName" destination="NQv-gy-qUy" id="tfM-vC-d8I"/>
+                        <outlet property="lName" destination="RYd-uw-jgU" id="k3b-pM-vnb"/>
+                        <outlet property="major" destination="PsD-eQ-aiW" id="uO3-Bx-mr7"/>
+                        <outlet property="occupation" destination="rLs-ss-1AK" id="Mvh-aG-XI5"/>
+                        <outlet property="submitBtn" destination="h7w-ed-eDl" id="7Jf-jK-TfL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
